@@ -1,9 +1,8 @@
 # Auftragsallianz: wie viel sparen Spediteure, wenn sie Aufträge zusammenlegen? – Streamlit-Demo
 
-<!-- Nach dem Deploy hier direkt den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-auftragsallianz-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-auftragsallianz-demo.streamlit.app/)**
 
-Stück der Linie **Gemeinsam gewinnen** (Arbeitsname; Name, Bereich und Themenfeld werden erst bei der Einbindung in die Website festgelegt) in der „Konzepte“-Reihe für die Website
+Stück der Linie **Gemeinsam gewinnen** in der „Konzepte“-Reihe für die Website
 „Sebastian Hanisch – Operations Research und Machine Learning“. Es führt die Linie zusammen: Wo die Vorgänger Bestände zusammenlegen, geht es hier um **Wege**: Spediteure mit eigenen
 Depots legen ihre Stopps zusammen. Die Auswahl der Aufträge ist zugleich ein Tausch von Punkten mit verschiedenem Wert. Die Aufteilungstheorie steht in
 [kern-demo](https://sebastianhanisch-kern-demo.streamlit.app/) und [shapley-demo](https://sebastianhanisch-shapley-demo.streamlit.app/) und wird hier nicht neu gebaut; der Kern dient nur als Kennzahl.

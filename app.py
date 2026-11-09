@@ -1,7 +1,7 @@
 """Auftragsallianz: wie viel sparen Spediteure, wenn sie Aufträge zusammenlegen? - interaktive Konzept-Demo
 Sebastian Hanisch - Operations Research und Machine Learning
 
-Stück der Linie „Gemeinsam gewinnen“ (Arbeitsname). Aufbau nach DEMO-PLAYBOOK §2.
+Stück der Linie „Gemeinsam gewinnen“. Aufbau nach DEMO-PLAYBOOK §2.
 
 Lauffähig mit: streamlit run app.py
 """
@@ -72,7 +72,7 @@ st.markdown(
     f"""
 **Spediteure mit eigenem Depot** legen ihre **Stopps zusammen**: In der Allianz darf jedes Fahrzeug jeden Stopp der Mitglieder fahren. Die Demo rechnet exakt (bis {C.MAX_STOPS} Stopps),
 **wie viel das spart**, **wovon die Ersparnis abhängt** (Überlappung der Reviere, Zahl der Mitglieder), **wie man sie aufteilt** (Shapley, proportional, Kern als Kennzahl) und
-**welche Aufträge man in den Pool gibt**. Stück der Linie „Gemeinsam gewinnen“ (Arbeitsname): Die Wege treten an die Stelle der Bestände, die Auswahl der Aufträge ist ein Tausch
+**welche Aufträge man in den Pool gibt**. Stück der Linie „Gemeinsam gewinnen“: Die Wege treten an die Stelle der Bestände, die Auswahl der Aufträge ist ein Tausch
 von Punkten mit verschiedenem Wert.
 
 Weiter unten: die **Kernfrage**, vier Abschnitte **🔬 Experiment**, **🚧 Wo die Annahmen enden**, **⚠️ Annahmen, Grenzen und bekannte Probleme** und **📐 Mathematische Formulierung**.
